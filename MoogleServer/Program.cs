@@ -1,6 +1,9 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 
+//Aqui llamamos a la funcion de indexamiento de la informacion
+MoogleEngine.Moogle.Init();
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
