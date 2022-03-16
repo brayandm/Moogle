@@ -7,13 +7,13 @@ def getFilesInDirectory(path):
 		break
 	return f
 
-Files = getFilesInDirectory('content/')
+Files = getFilesInDirectory('Content/')
 
 for name in Files:
 
 	if name[-4:] == ".txt":
 
-		text = open('content/' + name, 'r').readlines()
+		text = open('Content/' + name, 'r').readlines()
 
 		cad = []
 
@@ -26,7 +26,7 @@ for name in Files:
 					cad.append(' ')
 
 		
-		text = open('content/' + name, 'w')
+		text = open('Content/' + name, 'w')
 
 		for c in cad:
 			text.write(c)
