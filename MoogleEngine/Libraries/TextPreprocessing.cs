@@ -63,6 +63,8 @@ namespace MoogleEngine
                     FileName = NumberFileName.Substring(0,i);
                     //Obteniendo el numero de particion
                     Number = int.Parse(NumberFileName.Substring(i+1));
+                    //Saliendo del ciclo
+                    break;
                 }
             }
             //retornando el nombre del archivo y el numero de particion
