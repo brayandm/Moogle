@@ -24,13 +24,13 @@ namespace MoogleEngine
         //Variables a continuacion se usan para ajustar el Rendimiento del Algoritmo:
 
         //Limite de palabras a la hora de eliminar algunos caracteres a la hora de annadir una palabra
-        int AddWordErasingLimit = 100;
+        int AddWordErasingLimit = 40;
         //Limite de palabras a la hora de coger algunos caracteres a la hora de annadir una palabra
-        int AddWordPickingLimit = 100;
+        int AddWordPickingLimit = 40;
         //Limite de palabras a la hora de eliminar algunos caracteres a la hora de buscar palabras similares
-        int FindWordErasingLimit = 100;
+        int FindWordErasingLimit = 40;
         //Limite de palabras a la hora de coger algunos caracteres a la hora de buscar palabras similares
-        int FindWordPickingLimit = 100;
+        int FindWordPickingLimit = 40;
         //Limite de palabras en que una subpalabra puede estar contenida
         int SimilarWordsLimit = 10;
         //Limite de palabras mas similares a retornar
@@ -38,7 +38,7 @@ namespace MoogleEngine
         //Limite en el prefijo de las palabras a la hora de tener en cuenta los lexemas
         int PrefixLimit = 8;
         //Limite de palabras a la hora de eliminar algunos caracteres a la hora de tener en cuenta los lexemas
-        int PrefixErasingLimit = 100;
+        int PrefixErasingLimit = 40;
 
         //Se usa para ver si una palabra en especifico se encuentra dentro del diccionario
         public bool Contais(string word)
